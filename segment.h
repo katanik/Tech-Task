@@ -14,7 +14,7 @@ namespace Geometry
 		Segment(const Point& p1, const Point& p2);
 
 		/**
-		 * @return true if the segment id degenerate
+		 * @return true if the segment is degenerate
 		 */
 		bool isDegenerate() const;
 

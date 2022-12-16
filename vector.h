@@ -38,6 +38,11 @@ namespace Geometry
 		 */
 		double length() const;
 
+		/**
+		 * @return true if the vector is degenerate
+		 */
+		bool isDegenerate() const;
+
 	private:
 		double m_x, m_y, m_z;
 	};

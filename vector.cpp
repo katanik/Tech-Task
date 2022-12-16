@@ -29,6 +29,11 @@ namespace Geometry
 		return std::sqrt(m_x * m_x + m_y * m_y + m_z * m_z);
 	}
 
+	bool Vector::isDegenerate() const
+	{
+		return isZero(length());
+	}
+
 	Point Vector::toPoint() const
 	{
 		return Point{ m_x, m_y, m_z };

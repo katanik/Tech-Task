@@ -9,7 +9,7 @@ namespace Geometry
 
 	bool Segment::isDegenerate() const
 	{
-		return length() < s_tolerance;
+		return isZero(length());
 	}
 
 	double Segment::length() const
@@ -35,6 +35,11 @@ namespace Geometry
 	Point Segment::getNearestPoint(const Point& targetPoint) const
 	{
 		const auto dirVector = directionVector();
+
+		// Checks the case if start and end points are the same
+		if (isDegenerate())
+			return m_startPoint;
+		
 		const auto targetRadiusVector = toVector(targetPoint);
 		const auto startRadiusVector = toVector(m_startPoint);
 

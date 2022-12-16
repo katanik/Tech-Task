@@ -35,7 +35,16 @@ namespace Geometry
 		double m_z = 0.0;
 	};
 
+	/**
+	 * Calculates distance between two points
+	 * @return distance
+	 */
 	double distance(const Point& p1, const Point& p2);
+
+	/**
+	 * Checks if two points are equal
+	 * @return true if the points are equal
+	 */
 	bool areEqual(const Point& p1, const Point& p2);
 
 }

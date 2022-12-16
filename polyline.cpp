@@ -51,7 +51,7 @@ namespace Geometry
 			return false;
 		};
 
-		for (size_t idx = 0; idx < m_aPoints.size() - 1; ++idx)
+		for (unsigned idx = 0; idx < m_aPoints.size() - 1; ++idx)
 		{
 			const Segment curSegment{ m_aPoints[idx], m_aPoints[idx + 1] };
 			Point curPoint = curSegment.getNearestPoint(targetPoint);
