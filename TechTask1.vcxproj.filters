@@ -76,5 +76,47 @@
     <Text Include="tests\target_point_3.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="tests\nodes_4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\nodes_10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tests\target_point_10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -157,11 +157,25 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="tests\nodes_1.txt" />
+    <Text Include="tests\nodes_10.txt" />
     <Text Include="tests\nodes_2.txt" />
     <Text Include="tests\nodes_3.txt" />
+    <Text Include="tests\nodes_4.txt" />
+    <Text Include="tests\nodes_5.txt" />
+    <Text Include="tests\nodes_6.txt" />
+    <Text Include="tests\nodes_7.txt" />
+    <Text Include="tests\nodes_8.txt" />
+    <Text Include="tests\nodes_9.txt" />
     <Text Include="tests\target_point_1.txt" />
+    <Text Include="tests\target_point_10.txt" />
     <Text Include="tests\target_point_2.txt" />
     <Text Include="tests\target_point_3.txt" />
+    <Text Include="tests\target_point_4.txt" />
+    <Text Include="tests\target_point_5.txt" />
+    <Text Include="tests\target_point_6.txt" />
+    <Text Include="tests\target_point_7.txt" />
+    <Text Include="tests\target_point_8.txt" />
+    <Text Include="tests\target_point_9.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

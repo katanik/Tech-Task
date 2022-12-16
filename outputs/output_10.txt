@@ -1,0 +1,7 @@
+segment 1 point 0 -1 0
+or
+segment 2 point 0 -1 0
+segment 3 point 1 0 0
+or
+segment 4 point 1 0 0
+segment 5 point 0 1 0

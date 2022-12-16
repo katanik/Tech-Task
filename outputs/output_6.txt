@@ -1,0 +1,3 @@
+segment 2 point 1 1 0
+or
+segment 3 point 1 1 0

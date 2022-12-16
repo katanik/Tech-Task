@@ -1,0 +1,5 @@
+segment 1 point 2 2 2
+or
+segment 2 point 2 2 2
+or
+segment 3 point 2 2 2
